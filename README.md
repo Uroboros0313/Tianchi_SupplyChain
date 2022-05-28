@@ -21,7 +21,7 @@
     tqdm==4.62.2
 ```
 
-# Usage
+## Usage
 
 
 ```
@@ -31,7 +31,7 @@ cd ./code
 python main.py
 ```
 
-# File structure
+## File structure
 
 ├─code                   
 ├─data                    
@@ -40,9 +40,9 @@ python main.py
 │  └─submit                
 └─submit                            
 
-# Solution
+## Solution
 
-## Timeseries Forecasting
+### Timeseries Forecasting
 
 - Ensemble Learning
 
@@ -66,11 +66,11 @@ python main.py
 | holtwinters        | 2.5  |
 
 
-## Replenishment
+### Replenishment
 
 再订货点计算公式：再订货点=预测的未来三周需求+z\*历史需求标准差\*根号提前期，补货量为：max(再订货点-在途库存-库存水平,0)。
 
-# Improvement
+## Improvement
 
 比赛途中考虑了几种策略，要么限于当时忙于课题组的项目以及当时代码功底仍然不够好而没有采用，要么做出来效果不好。
 
